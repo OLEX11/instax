@@ -1,6 +1,6 @@
 #!/bin/bash
-# Coded by: github.com/dhasirar
-# Instagram: @dhasirar
+# Coded by: github.com/OLEX11
+# Instagram: @xn0n.h0.un.n0m3x
 
 trap 'store;exit 1' 2
 string4=$(openssl rand -hex 32 | cut -c 1-4)
@@ -43,14 +43,17 @@ fi
 
 banner() {
 
-printf "\e[1;77m     _                              \e[0m\n"
-printf "\e[1;77m _  | |                _            \e[0m\n"
-printf "\e[1;77m( \ | | ____    ___  _| |_  _____   \e[0m\n"
-printf "\e[1;80m ) )| ||  _ \  /___)(_   _)(____ |  \e[0m\n"
-printf "\e[1;77m(_/ | || | | ||___ |  | |_ / ___ |  \e[0m\n"
-printf "\e[1;77m    |_||_| |_|(___/    \__)\_____|  \e[0m\n"
+printf "\e[1;77m ██▓███   ██▓ ██▀███   ▄▄▄     ▄▄▄█████▓▓█████   ██████ \e[0m\n"
+printf "\e[1;77m▓██░  ██▒▓██▒▓██ ▒ ██▒▒████▄   ▓  ██▒ ▓▒▓█   ▀ ▒██    ▒ \e[0m\n"
+printf "\e[1;77m▓██░ ██▓▒▒██▒▓██ ░▄█ ▒▒██  ▀█▄ ▒ ▓██░ ▒░▒███   ░ ▓██▄   \e[0m\n"
+printf "\e[1;80m▒██▄█▓▒ ▒░██░▒██▀▀█▄  ░██▄▄▄▄██░ ▓██▓ ░ ▒▓█  ▄   ▒   ██▒\e[0m\n"
+printf "\e[1;77m▒██▒ ░  ░░██░░██▓ ▒██▒ ▓█   ▓██▒ ▒██▒ ░ ░▒████▒▒██████▒▒\e[0m\n"
+printf "\e[1;77m▒▓▒░ ░  ░░▓  ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░ ▒ ░░   ░░ ▒░ ░▒ ▒▓▒ ▒ ░\e[0m\n"
+printf "\e[1;77m░▒ ░      ▒ ░  ░▒ ░ ▒░  ▒   ▒▒ ░   ░     ░ ░  ░░ ░▒  ░ ░\e[0m\n"
+printf "\e[1;77m░░        ▒ ░  ░░   ░   ░   ▒    ░         ░   ░  ░  ░  \e[0m\n"
+printf "\e[1;77m          ░     ░           ░  ░           ░  ░      ░  \e[0m\n"
 printf "\n"
-printf "\e[1;50m\e[40m  Instagram Brute Force Tool by @dhasirar(IG)   \e[0m\n"
+printf "\e[1;50m\e[40m  Instagram Brute Force Tool By Cataclysma   \e[0m\n"
 printf "\n"
 }
 
